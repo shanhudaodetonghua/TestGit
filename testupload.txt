@@ -1,0 +1,15 @@
+1.github上创建TestGit的仓库，勾选readme.txt
+2.本地创建文件TestGit
+3.本地启动git
+4.git init
+5.git remote add origin https://github.com/shanhudaodetonghua/TestGit.git
+6.git pull origin master
+7.本地创建文件 testupload.txt
+8.git add testupload.txt
+9.git commit -m 'add testupload.txt file'
+10.git push origin master
+11.github上对应的仓库多了testupload.txt文件。
+
+# 第5步，将远程仓库添加进默认的远程仓库。
+# 第六步，先获取远程仓库的上一轮的文件，然后在此上面进行修改，以免遗漏。
+# 第八步，每一个文件写完后添加进本地缓存。
